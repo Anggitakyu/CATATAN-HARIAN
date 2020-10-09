@@ -35,6 +35,7 @@ public class LihatActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_lihat);
         edtFileName = findViewById(R.id.editFilename);
         edtContent = findViewById(R.id.editContent);
         simpan= findViewById(R.id.btnSimpan);
